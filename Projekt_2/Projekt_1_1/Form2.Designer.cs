@@ -30,16 +30,18 @@
         {
             this.zamknij_program = new System.Windows.Forms.Button();
             this.zamknij = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.txtBok = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.SuspendLayout();
             // 
             // zamknij_program
             // 
-            this.zamknij_program.Location = new System.Drawing.Point(23, 207);
+            this.zamknij_program.Location = new System.Drawing.Point(37, 207);
             this.zamknij_program.Name = "zamknij_program";
             this.zamknij_program.Size = new System.Drawing.Size(106, 23);
             this.zamknij_program.TabIndex = 0;
@@ -49,7 +51,7 @@
             // 
             // zamknij
             // 
-            this.zamknij.Location = new System.Drawing.Point(145, 207);
+            this.zamknij.Location = new System.Drawing.Point(168, 207);
             this.zamknij.Name = "zamknij";
             this.zamknij.Size = new System.Drawing.Size(75, 23);
             this.zamknij.TabIndex = 1;
@@ -57,19 +59,20 @@
             this.zamknij.UseVisualStyleBackColor = true;
             this.zamknij.Click += new System.EventHandler(this.zamknij_Click);
             // 
-            // label1
+            // txtBok
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(68, 67);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
+            this.txtBok.AutoSize = true;
+            this.txtBok.Location = new System.Drawing.Point(53, 80);
+            this.txtBok.Name = "txtBok";
+            this.txtBok.Size = new System.Drawing.Size(26, 13);
+            this.txtBok.TabIndex = 2;
+            this.txtBok.Text = "Bok";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(142, 19);
+            this.label2.ForeColor = System.Drawing.Color.DarkRed;
+            this.label2.Location = new System.Drawing.Point(129, 41);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 3;
@@ -77,39 +80,52 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(110, 160);
+            this.button1.Location = new System.Drawing.Point(110, 163);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
+            this.button1.Text = "Zmien kolor";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btn1
             // 
-            this.button2.Location = new System.Drawing.Point(110, 108);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn1.Location = new System.Drawing.Point(110, 116);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(75, 23);
+            this.btn1.TabIndex = 5;
+            this.btn1.Text = "Pokaz/ukryj";
+            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(110, 64);
+            this.textBox1.Location = new System.Drawing.Point(100, 77);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 6;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel1.Location = new System.Drawing.Point(313, 41);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 200);
+            this.panel1.TabIndex = 7;
+            this.panel1.Visible = false;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(555, 253);
+            this.ClientSize = new System.Drawing.Size(576, 302);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btn1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtBok);
             this.Controls.Add(this.zamknij);
             this.Controls.Add(this.zamknij_program);
             this.Name = "Form2";
@@ -126,10 +142,12 @@
 
         private System.Windows.Forms.Button zamknij_program;
         private System.Windows.Forms.Button zamknij;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label txtBok;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ColorDialog colorDialog1;
     }
 }

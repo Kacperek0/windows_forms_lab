@@ -30,6 +30,7 @@ namespace Projekt_1_1
             else
             {
                 komunikat.Text = "Wpisz dodatnią liczbę";
+                
             }
         }
 
@@ -70,6 +71,29 @@ namespace Projekt_1_1
         {
             var formColor = new Form2();
             formColor.Show();
+        }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void closeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var Draw = new Form3();
+            Draw.ShowDialog();
+        }
+
+        private void clearToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
         }
     }
 }

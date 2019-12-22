@@ -36,5 +36,44 @@ namespace Projekt_1_1
         {
             //Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            colorDialog1.ShowDialog();
+            panel1.BackColor = colorDialog1.Color;
+        }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+
+            if (panel1.Visible == true)
+            {
+                panel1.Visible = false;
+            }
+            else
+            {
+                panel1.Visible = true;
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            byte a;
+            if (byte.TryParse(textBox1.Text, out a) && a > 0)
+            {
+                if (!panel1.Visible)
+                {
+                    panel1.Visible = true;
+                }
+                textBox1.Text = a.ToString();
+                panel1.Width = a;
+                panel1.Height = a;
+                label2.Text = string.Empty;
+            }
+            else
+            {
+                label2.Text = "Wybierz inna liczbe od 1 do 256";
+            }
+        }
     }
 }
