@@ -1,0 +1,29 @@
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_1_1\Projekt_1_1\bin\Debug\Projekt_1_1.exe.config
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_1_1\Projekt_1_1\bin\Debug\Projekt_1_1.exe
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_1_1\Projekt_1_1\bin\Debug\Projekt_1_1.pdb
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_1_1\Projekt_1_1\obj\Debug\Projekt_1_1.csprojAssemblyReference.cache
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_1_1\Projekt_1_1\obj\Debug\Projekt_1_1.Form1.resources
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_1_1\Projekt_1_1\obj\Debug\Projekt_1_1.Properties.Resources.resources
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_1_1\Projekt_1_1\obj\Debug\Projekt_1_1.csproj.GenerateResource.cache
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_1_1\Projekt_1_1\obj\Debug\Projekt_1_1.exe
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_1_1\Projekt_1_1\obj\Debug\Projekt_1_1.pdb
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_2\Projekt_1_1\bin\Debug\Projekt_1_1.exe.config
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_2\Projekt_1_1\bin\Debug\Projekt_1_1.exe
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_2\Projekt_1_1\bin\Debug\Projekt_1_1.pdb
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_2\Projekt_1_1\obj\Debug\Projekt_1_1.csprojAssemblyReference.cache
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_2\Projekt_1_1\obj\Debug\Projekt_1_1.Form1.resources
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_2\Projekt_1_1\obj\Debug\Projekt_1_1.Form2.resources
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_2\Projekt_1_1\obj\Debug\Projekt_1_1.Properties.Resources.resources
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_2\Projekt_1_1\obj\Debug\Projekt_1_1.csproj.GenerateResource.cache
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_2\Projekt_1_1\obj\Debug\Projekt_1_1.exe
+D:\Programy\Projekty Visual Studio\Po pierwszym kolokwium\21-12-2019_projekty\Projekt_2\Projekt_1_1\obj\Debug\Projekt_1_1.pdb
+C:\Users\kacper\Downloads\21-12-2019_projekty\Projekt_2\Projekt_1_1\bin\Debug\Projekt_1_1.exe.config
+C:\Users\kacper\Downloads\21-12-2019_projekty\Projekt_2\Projekt_1_1\bin\Debug\Projekt_1_1.exe
+C:\Users\kacper\Downloads\21-12-2019_projekty\Projekt_2\Projekt_1_1\bin\Debug\Projekt_1_1.pdb
+C:\Users\kacper\Downloads\21-12-2019_projekty\Projekt_2\Projekt_1_1\obj\Debug\Projekt_1_1.csprojAssemblyReference.cache
+C:\Users\kacper\Downloads\21-12-2019_projekty\Projekt_2\Projekt_1_1\obj\Debug\Projekt_1_1.Form1.resources
+C:\Users\kacper\Downloads\21-12-2019_projekty\Projekt_2\Projekt_1_1\obj\Debug\Projekt_1_1.Form2.resources
+C:\Users\kacper\Downloads\21-12-2019_projekty\Projekt_2\Projekt_1_1\obj\Debug\Projekt_1_1.Properties.Resources.resources
+C:\Users\kacper\Downloads\21-12-2019_projekty\Projekt_2\Projekt_1_1\obj\Debug\Projekt_1_1.csproj.GenerateResource.cache
+C:\Users\kacper\Downloads\21-12-2019_projekty\Projekt_2\Projekt_1_1\obj\Debug\Projekt_1_1.exe
+C:\Users\kacper\Downloads\21-12-2019_projekty\Projekt_2\Projekt_1_1\obj\Debug\Projekt_1_1.pdb
